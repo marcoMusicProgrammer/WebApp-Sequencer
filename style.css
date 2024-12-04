@@ -1,0 +1,250 @@
+html, body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(157, 157, 157);
+    margin: 0;
+}
+
+
+.high-nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    padding: 5px;
+    background-color: rgba(20, 20, 20, 255);
+}
+
+#items-id {
+    margin: 10px;
+}
+
+.main_sec {
+    margin-top: 10px;
+    display: grid;
+    justify-content: center;
+    align-self: center;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.master {
+
+    position: fixed;
+    margin-left: 90%;
+    bottom: 10%;
+}
+
+.master-element {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100px;
+    height: 200px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    border-radius: 3px 3px;
+}
+
+
+.line {
+    height: 3px;
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+}
+
+.oscs {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-grow: 1px;
+    padding: 10px;
+    margin: 5px;
+    margin-top: 100px;
+}
+
+.osc {
+    display: inline-flex;
+    flex-direction: column;
+    flex: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    padding: 10px;
+    margin: 5px;
+    background-color: silver;
+    border-radius: 15px 15px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.footer-nav {
+
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    background-color: rgba(20, 20, 20, 255);
+    font-weight: bold;
+    color: rgb(164, 164, 164)
+
+}
+
+
+
+
+#footer-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer-2 {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+
+.footer-items {
+
+}
+
+.button_div {
+    padding: 2px;
+}
+
+.oscButton {
+    width: 200px;
+}
+
+.sequencer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 100px;
+    flex-wrap: wrap;
+    flex-grow: 1px;
+    padding: 10px;
+    margin: 5px;
+    margin-bottom: 100px;
+}
+
+.steps {
+    margin: 20px;
+}
+
+.ul {
+    list-style-type: none; /* Rimuove i puntini dalla lista */
+    padding: 0;           /* Rimuove il padding */
+    margin: 0;            /* Rimuove il margine */
+    display: flex;        /* Usa Flexbox per allineare gli elementi orizzontalmente */
+}
+
+.ul li {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;   /* Aggiunge uno spazio tra gli elementi */
+    background-color: rgb(255, 255, 255);
+}
+
+/* Rimuove l'ultimo margine destro */
+.ul li:last-child {
+    margin-right: 0;
+}
+
+.subEnvDiv {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+    align-self: center;
+}
+
+.envDiv {
+    display: flex;
+    align-items: center;
+    align-self: center;
+
+}
+
+.env_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: 20px;
+    width: 500px;
+    border-radius: 15px 15px;
+    background-color: rgb(29, 29, 29);
+}
+
+.env {
+    -webkit-appearance: slider-vertical;
+    width: 30px;
+    /* writing-mode: bt-lr; Imposta la modalità di scrittura dall'alto verso il basso */
+}
+
+.subFmDiv {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+    align-self: center;
+}
+
+.fmDiv {
+    display: flex;
+    align-items: center;
+    align-self: center;
+
+}
+
+
+.FM_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    width: 500px;
+    border-radius: 15px 15px;
+    background-color: rgb(29, 29, 29);
+}
+
+
+
+.control-master {
+position: fixed;
+}
+
+.slider-bottom-nav {
+    -webkit-appearance: slider-vertical;
+    width: 30px;
+}
+
+
+#spanAttack {
+    margin: 5px;
+}
+
+#spanDecay {
+    margin: 5px;
+}
+
+#spanSustain {
+    margin: 5px;
+}
+
+#spanRelease {
+    margin: 5px;
+}
+
+#title {
+    color: white;
+}
